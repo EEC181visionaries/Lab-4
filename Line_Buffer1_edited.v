@@ -63,7 +63,7 @@ module Line_Buffer1 (
 	wire [11:0] sub_wire0;
 	wire [35:0] sub_wire1;
 	wire [11:0] shiftout = sub_wire0[11:0];
-	wire [35:24] sub_wire4 = sub_wire1[35:24]
+	wire [35:24] sub_wire4 = sub_wire1[35:24];
 	wire [23:12] sub_wire3 = sub_wire1[23:12];
 	wire [11:0] sub_wire2 = sub_wire1[11:0];
 	wire [11:0] taps0x = sub_wire2[11:0];
